@@ -28,6 +28,8 @@
    *               | 2 | V
    *               | 3 | IN
    *               | 4 | G
-   *               | 5 | OUT (PB1)
+   *               | 5 | OUT (PB1 - DIN) this is the pin i used as the neopixel backlight, goes to EXP1 pin 6
    *               -----
    *            Bl/Cr touch port
+
+
