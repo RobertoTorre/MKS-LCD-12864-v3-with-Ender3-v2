@@ -7,6 +7,8 @@
 To make the cable i'd suggest to use either the one that comes stock with the printer or to buy a new one, cut one end and divide the individual cables.
   Buy yourself a pack of 10 pin IDC female connectors, and with some patience line up the cables in the correct position, then push hard. I used a small vice to push the 
   connectors all the way into position.
+The one cable coming from the bltouch port, my advice would be to find a bltouch 5pin cable on aliexpress, they are long enough and cost around 1.5 euros, cut the ends and pick the 5th cable
+and join it to the ones coming from the board to your custom cable. 
 
 // ----------------- HOW I WIRED THE TWO EXP CONNECTORS, COLORS MAY VARY IN YOUR CASE ---------------------------------------//
 
