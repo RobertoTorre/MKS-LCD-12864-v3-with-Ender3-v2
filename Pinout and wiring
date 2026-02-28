@@ -3,6 +3,25 @@
   I found out and adapted this scheme in the marlin file pins_CREALITY_V4.h
   At first i tried to follow this wiring setup, but i had a lot of issues with the neopixel backlight not working, so i switched that pin (PA13)
   to the data pin located on the bltouch connector (PB1), and worked flawlessy with that, feel free to try out what works best for yourself.
+  
+To make the cable i'd suggest to use either the one that comes stock with the printer or to buy a new one, cut one end and divide the individual cables.
+  Buy yourself a pack of 10 pin IDC female connectors, and with some patience line up the cables in the correct position, then push hard. I used a small vice to push the 
+  connectors all the way into position.
+
+// ----------------- HOW I WIRED THE TWO EXP CONNECTORS, COLORS MAY VARY IN YOUR CASE ---------------------------------------//
+
+[ EXP 1 ]                                                        |   [ EXP 2 ]         
+While looking at the arrow on the connector, from left to right  |   Grey board to    - 5
+Black cable board to position     - 1                            |   blue board to    - 6
+White board to                    - 2                            |   brown to         - 8
+Green board to                    - 7                            |   purple board to  - 9
+Yellow to                         - 6
+orange to                         - 8
+Red to                            - 9
+WIRE COMING FROM PB1 (my case) to - 5
+
+
+// ----------------- PINOUT ---------------------------------------//
 
    *           Board (4.2.2)                       Display (MKS-MINI12864-V3)
    *                 ------                               ------
