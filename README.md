@@ -28,5 +28,5 @@ This guide includes:
 
   
 ## What can you find attached to this guide
-- firmware
-- marlin folder ready to be compiled with all the necessary mods
+- necessary firmware files, paste and overwrite the ones you could find in marlin stock folder
+- tutorial and photos on how to make your custom cables
